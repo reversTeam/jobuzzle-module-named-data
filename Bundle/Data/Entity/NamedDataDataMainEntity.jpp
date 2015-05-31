@@ -1,0 +1,24 @@
+#import (Config.path +'/Modules/Data/Bundle/Data/Entity/DataDataMainEntity') = DataDataMainEntity;
+
+class NamedDatDataMainEntity extends DataDataMainEntity {
+
+	_type = 'NamedData';
+
+	#default get, set for _name;
+
+	initialize : function () {
+		_super();
+
+		this._name = undefined;
+	}
+
+	hydrate : function (datas) {
+		_super(datas);
+
+		if (datas.name)
+			this.setName(datas.name);
+	}
+
+}
+
+#export NamedDatDataMainEntity;
