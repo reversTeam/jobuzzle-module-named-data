@@ -1,4 +1,4 @@
-#import (Config.path +'/Modules/Data/Bundle/Data/Collection/DataDataMainCollection') = DataDataMainCollection;
+#import (Config.path +'/Modules/DataNamed/Bundle/Data/Collection/DataDataMainCollection') = DataDataMainCollection;
 
 class NamedDataDataMainCollection extends DataDataMainCollection {
 
