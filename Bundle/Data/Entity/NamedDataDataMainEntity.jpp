@@ -1,6 +1,6 @@
 #import (Config.path +'/Modules/Data/Bundle/Data/Entity/DataDataMainEntity') = DataDataMainEntity;
 
-class NamedDatDataMainEntity extends DataDataMainEntity {
+class NamedDataDataMainEntity extends DataDataMainEntity {
 
 	_type = 'NamedData';
 
