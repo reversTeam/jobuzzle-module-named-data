@@ -1,0 +1,15 @@
+#import (Config.path +'/Modules/Data/Bundle/Data/Route/DataDataMainRoute') = DataDataMainRoute;
+
+class NamedDataDataMainRoute extends DataDataMainRoute {
+
+	name = 'nameddata';
+
+	baseName = 'NamedData';
+	baseRoute = '{named-datas}';
+	baseController = 'nameddata_data_main_controller';
+
+	paramName = 'nameddata_url';
+
+}
+
+#export NamedDataDataMainRoute;
