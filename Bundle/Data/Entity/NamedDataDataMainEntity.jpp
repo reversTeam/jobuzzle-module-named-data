@@ -4,6 +4,7 @@ class NamedDataDataMainEntity extends DataDataMainEntity {
 
 	_type = 'NamedData';
 	_templateTimeline = 'nameddata_data_timeline_template';
+	_templateMiniature = 'nameddata_data_miniature_template';
 
 	#default get, set for _name;
 
