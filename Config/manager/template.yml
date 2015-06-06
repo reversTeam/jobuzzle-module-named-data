@@ -1,2 +1,3 @@
 invokables:
 	nameddata_data_timeline_template : Data/Template/NamedDataDataTimelineTemplate
+	nameddata_data_miniature_template : Data/Template/NamedDataDataMiniatureTemplate
