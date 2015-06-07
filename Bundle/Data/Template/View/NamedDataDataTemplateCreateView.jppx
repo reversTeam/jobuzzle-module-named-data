@@ -1,0 +1,10 @@
+class NamedDataDataTemplateCreateView extends DataDataTemplateCreateView {
+
+	_class = 'nameddata';
+	_elementType = 'NamedData';
+
+	display : function () {
+		return <div>Create NamedData</div>;
+	}
+
+}

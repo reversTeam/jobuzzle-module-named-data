@@ -1,2 +1,2 @@
 invokables:
-	nameddata_data_main_entity : Data/Route/NamedDataMainRoute
+	nameddata_data_main_route : Data/Route/NamedDataDataMainRoute

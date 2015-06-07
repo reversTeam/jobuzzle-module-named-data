@@ -1,3 +1,16 @@
 invokables:
 	nameddata_data_timeline_template : Data/Template/NamedDataDataTimelineTemplate
 	nameddata_data_miniature_template : Data/Template/NamedDataDataMiniatureTemplate
+
+	nameddata_data_search_template	: Data/Template/NamedDataDataSearchTemplate
+	nameddata_data_view_template	: Data/Template/NamedDataDataViewTemplate
+	nameddata_data_create_template	: Data/Template/NamedDataDataCreateTemplate
+	nameddata_data_update_template	: Data/Template/NamedDataDataUpdateTemplate
+	nameddata_data_delete_template	: Data/Template/NamedDataDataDeleteTemplate
+
+shared :
+	nameddata_data_search_template	: true
+	nameddata_data_view_template	: true
+	nameddata_data_create_template	: true
+	nameddata_data_update_template	: true
+	nameddata_data_delete_template	: true

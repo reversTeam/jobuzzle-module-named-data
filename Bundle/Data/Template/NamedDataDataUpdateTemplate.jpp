@@ -1,0 +1,7 @@
+class NamedDataDataUpdateTemplate extends DataDataUpdateTemplate {
+
+	_viewClassName = 'NamedDataDataTemplateUpdateView';
+	_type = 'NamedData';
+	_route = 'nameddata';
+
+}
