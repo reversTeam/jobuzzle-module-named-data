@@ -1,0 +1,7 @@
+class NamedDataDataSearchTemplate extends DataDataSearchTemplate {
+
+	_viewClassName = 'NamedDataDataTemplateSearchView';
+	_type = 'NamedData';
+	_route = 'nameddata';
+
+}

@@ -1,0 +1,10 @@
+class NamedDataDataTemplateUpdateView extends DataDataTemplateUpdateView {
+
+	_class = 'nameddata';
+	_elementType = 'NamedData';
+
+	display : function () {
+		return <div>Update NamedData</div>;
+	}
+
+}
