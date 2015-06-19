@@ -3,8 +3,4 @@ class NamedDataDataTemplateSearchView extends DataDataTemplateSearchView {
 	_class = 'nameddata';
 	_elementType = 'NamedData';
 
-	display : function () {
-		return <div>Search NamedData</div>;
-	}
-
 }
