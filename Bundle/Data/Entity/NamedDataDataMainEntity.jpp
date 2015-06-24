@@ -21,6 +21,12 @@ class NamedDataDataMainEntity extends DataDataMainEntity {
 			this.setName(datas.name);
 	}
 
+	search : function (params) {
+		var reg = new RegExp(params, 'i');
+
+		return (_super() || reg.test(this.getName()));
+	}
+
 }
 
 #export NamedDatDataMainEntity;

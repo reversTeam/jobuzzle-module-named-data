@@ -2,7 +2,7 @@
 
 class NamedDataDataTemplateTimelineView extends DataDataTemplateTimelineView {
 
-	render : function () {
+	display : function () {
 		var entity = this.state.entity;
 
 		return (
