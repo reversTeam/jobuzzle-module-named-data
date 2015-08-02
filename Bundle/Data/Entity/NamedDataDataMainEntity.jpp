@@ -24,7 +24,7 @@ class NamedDataDataMainEntity extends DataDataMainEntity {
 	search : function (params) {
 		var reg = new RegExp(params, 'i');
 
-		return (_super() || reg.test(this.getName()));
+		return (_super(params) || reg.test(this.getName()));
 	}
 
 }

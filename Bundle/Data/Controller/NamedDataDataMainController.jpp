@@ -1,5 +1,6 @@
 class NamedDataDataMainController extends DataDataMainController {
 
 	_serviceName = 'nameddata_data_main_service';
+	_entityType = 'NamedData';
 	
 }
