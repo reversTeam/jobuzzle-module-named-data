@@ -1,6 +1,13 @@
 class NamedDataDataMainService extends DataDataMainService {
 
 	_type = 'nameddata';
+	_entityType = 'NamedData';
 	_title = 'NamedDatas';
+
+	getTitleParamsView : function (entity) {
+		if (entity)
+			return { url : entity.getName() };
+		return { url : '' };
+	}
 
 }

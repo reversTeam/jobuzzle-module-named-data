@@ -6,13 +6,13 @@ class NamedDataDataMainCollection extends DataDataMainCollection {
 	_entityClass = 'nameddata_data_main_entity';
 
 	getProtected : function () {
-		if (this._protected == undefined) {
-			var protected = _super();
-			this._protected = protected.concat(
-				Config.modules.NamedData.collections.update.protected
+		if (this._protect == undefined) {
+			var parent = _super();
+			this._protect = parent.concat(
+				Config.modules.NamedData.collections.update.protect
 			);
 		}
-		return this._protected;
+		return this._protect;
 	}
 
 }

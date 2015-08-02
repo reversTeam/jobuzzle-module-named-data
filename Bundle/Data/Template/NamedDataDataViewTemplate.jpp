@@ -1,5 +1,6 @@
 class NamedDataDataViewTemplate extends DataDataViewTemplate {
 
+	_serviceName = 'nameddata_data_main_service';
 	_viewClassName = 'NamedDataDataTemplateViewView';
 	_type = 'NamedData';
 	_route = 'nameddata';
