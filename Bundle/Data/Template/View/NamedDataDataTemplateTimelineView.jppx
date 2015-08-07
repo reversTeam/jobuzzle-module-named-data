@@ -1,5 +1,3 @@
-#import (Config.path +'/Modules/Data/Bundle/Template/View/DataDataTemplateTimelineView') = DataDataTemplateTimelineView;
-
 class NamedDataDataTemplateTimelineView extends DataDataTemplateTimelineView {
 
 	display : function () {
@@ -13,5 +11,3 @@ class NamedDataDataTemplateTimelineView extends DataDataTemplateTimelineView {
 	}
 
 }
-
-#export NamedDataDataTemplateTimelineView;
