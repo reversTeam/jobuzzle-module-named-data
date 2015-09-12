@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:21
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:24
 **************************************************************/
 
 class NamedDataDataTemplateDeleteView extends DataDataTemplateDeleteView {
@@ -15,7 +15,7 @@ class NamedDataDataTemplateDeleteView extends DataDataTemplateDeleteView {
 	_class = 'nameddata';
 	_elementType = 'NamedData';
 
-	display : function () {
+	public display : function () {
 		return <div>Delete NamedData</div>;
 	}
 
