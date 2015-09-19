@@ -7,16 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-11 21:28:34
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:57:37
 **************************************************************/
 
 class NamedDataDataTemplateUpdateView extends DataDataTemplateUpdateView {
 
 	_class = 'nameddata';
 	_elementType = 'NamedData';
-
-	public display : function () {
-		return <div>Update NamedData</div>;
-	}
 
 }
