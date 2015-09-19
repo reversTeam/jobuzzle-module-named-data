@@ -3,18 +3,16 @@
 *     ####         #                               #          *
 *       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
 *       ## #     # #     # #     #      #       #  # #     #  *
-*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-19 12:07:47
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:05:52
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:09:05
 **************************************************************/
 
-class NamedDataDataUpdateTemplate extends DataDataUpdateTemplate {
+class NamedDataDataCreateForm extends DataDataCreateForm {
 
-	_viewClassName = 'NamedDataDataTemplateUpdateView';
-	_serviceName = 'nameddata_data_main_service';
-	_type = 'NamedData';
-	_route = 'nameddata';
+	public _title = 'Create named data';
+	public _url = '/nameddata/create';
 
 }
