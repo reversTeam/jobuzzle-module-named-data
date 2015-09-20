@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-19 12:29:56
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 11:46:54
 **************************************************************/
 
 class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
@@ -31,7 +31,7 @@ class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
 		if (!this['_nameDisplay']) {
 			this['_nameDisplay'] = {};
 			this['_nameDisplay']['type'] = 'Text';
-			this['_nameDisplay']['label'] = 'Name';
+			this['_nameDisplay']['label'] = 'form.input.nameddata.name';
 		}
 		return this['_nameDisplay'];
 	}
