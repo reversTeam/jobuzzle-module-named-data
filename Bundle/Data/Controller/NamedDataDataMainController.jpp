@@ -7,12 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-08-08 14:32:20
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-29 10:27:31
 **************************************************************/
 
 class NamedDataDataMainController extends DataDataMainController {
 
 	_serviceName = 'nameddata_data_main_service';
 	_entityType = 'NamedData';
+	_url = 'nameddata';
 	
 }
