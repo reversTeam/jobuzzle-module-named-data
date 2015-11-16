@@ -7,12 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-03 16:04:14
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-09 13:24:45
 **************************************************************/
 
 class NamedDataDataMiniatureTemplate extends DataDataMiniatureTemplate {
 
 	_viewClassName = 'NamedDataDataTemplateMiniatureView';
 
+	public _type = 'NamedData';
 
 }
