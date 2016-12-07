@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-09-20 12:05:55
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 14:57:55
 ###############################################################
 
 nameddata :
 	create: 'Create data with name'
 	edit: 'Edit data with name'
 	search: 'Search data with name'
+	delete: Delete data with name

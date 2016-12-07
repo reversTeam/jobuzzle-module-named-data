@@ -7,19 +7,21 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 18:32:06
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 13:00:43
 **************************************************************/
 
 class NamedDataDataTemplateTimelineView extends DataDataTemplateTimelineView {
 
-	public display : function () {
+	public getClassElement : function () {
+		var classElement = _super();
+		classElement.push('nameddata');
+		return classElement;
+	}
+
+	public displayContent : function () {
 		var entity = this.state['entity'];
 
-		return (
-			<div>
-				{entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl() +' | Name : '+ entity.getName() }
-			</div>
-		);
+		return entity.getId() +' : '+ entity.getType() +' | Url -> '+ entity.getUrl() +' | Name : '+ entity.getName() ;
 	}
 
 }

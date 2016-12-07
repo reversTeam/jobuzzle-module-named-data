@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-09-20 11:46:54
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-25 00:21:30
 **************************************************************/
 
 class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
@@ -18,6 +18,7 @@ class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
 	public _editFormName = 'nameddata_data_edit_form';
 
 	public _nameDisplay = undefined;
+	public _nameInput = undefined;
 
 	public getElementsDisplay : function () {
 		var elementsDisplay = _super();
@@ -25,6 +26,14 @@ class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
 		elementsDisplay['name'] = this.getNameDisplay();
 
 		return elementsDisplay;
+	}
+
+	public getElementsInput : function () {
+		var elementsInput = _super();
+
+		elementsInput['name'] = this.getNameInput();
+
+		return elementsInput;
 	}
 
 	public getNameDisplay : function () {
@@ -35,5 +44,23 @@ class NamedDataDataFieldsetForm extends DataDataFieldsetForm {
 		}
 		return this['_nameDisplay'];
 	}
+
+	public getNameInput : function () {
+		if (this['_nameInput'] == undefined) {
+			this['_nameInput'] = {};
+
+			this['_nameInput']['required'] = true;
+
+			this['_nameInput']['filters'] = [];
+			this['_nameInput']['filters'][0] = {}
+			this['_nameInput']['filters'][0]['name'] = 'Trim';
+
+			this['_nameInput']['validators'] = [];
+			this['_nameInput']['validators'][0] = {}
+			this['_nameInput']['validators'][0]['name'] = 'Text';
+		}
+		return this['_nameInput'];
+	}
+
 
 }

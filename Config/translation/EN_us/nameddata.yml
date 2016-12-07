@@ -7,10 +7,15 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-09 14:09:18
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 14:58:07
 ###############################################################
 
 page:
 	title:
 		NamedDatas : Data with name
 		view: '{{url}}'
+
+view:
+	actions:
+		edit: Edit data with name
+		delete: Delete data with name
